@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "ImageUploadService.Controllers.ImageController",
+    "Method": "DeleteImage",
+    "RelativePath": "api/Image/DeleteImage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImageUploadService.Controllers.ImageController",
+    "Method": "GetImages",
+    "RelativePath": "api/Image/GetImages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImageUploadService.Controllers.ImageController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Image/UploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
